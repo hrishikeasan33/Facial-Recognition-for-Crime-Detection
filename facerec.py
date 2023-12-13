@@ -4,7 +4,7 @@ import numpy
 import os
 
 size = 2
-haar_cascade = cv2.CascadeClassifier(r'C:\Users\hp\Documents\GitHub\Face-Recognition-For-Criminal-Detection-GUi\face_cascade.xml')
+haar_cascade = cv2.CascadeClassifier(r'Face-Recognition-For-Criminal-Detection-GUi\face_cascade.xml')
 
 # Part 1: Create fisherRecognizer
 def train_model():

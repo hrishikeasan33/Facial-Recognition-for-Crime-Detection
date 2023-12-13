@@ -57,7 +57,7 @@ def goBack():
 def basicPageSetup(pageNo):
     global left_frame, right_frame, heading
 
-    back_img = tk.PhotoImage(file= r"C:\Users\hp\Documents\GitHub\Face-Recognition-For-Criminal-Detection-GUi\img\back.png")
+    back_img = tk.PhotoImage(file= r"img\logo2.png")
     back_button = tk.Button(pages[pageNo], image=back_img, bg="#3E3B3C", bd=0, highlightthickness=0,
            activebackground="#3E3B3C", command=goBack)
     back_button.image = back_img
@@ -610,7 +610,7 @@ def selectvideo1():
 tk.Label(pages[0], text="Face Recognition System for Criminal Detection", fg="black", bg="#3E3B3C",
       font="Arial 25 bold", pady=30).pack()
 
-logo = tk.PhotoImage(file = r"C:\Users\hp\Documents\GitHub\Face-Recognition-For-Criminal-Detection-GUi\img\logo2.png")
+logo = tk.PhotoImage(file = r"img\logo2.png")
 tk.Label(pages[0], image=logo, bg="#3E3B3C").pack(side='left')
 
 btn_frame = tk.Frame(pages[0], bg="#3E3B3C", pady=30)
